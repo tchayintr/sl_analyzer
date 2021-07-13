@@ -1,0 +1,3 @@
+SL_DATA_DELIM = ' '
+SL_DATA_FORMAT = 'sl'
+LOG_DATA_FORMAT_EXT = '.log'

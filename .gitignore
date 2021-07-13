@@ -1,0 +1,26 @@
+# folders
+######################
+data/*
+scripts/*
+logs/*
+
+# files
+######################
+!*.gitkeep
+!data/best2010.sample20.seg.sl
+!logs/best2010.sample20.log
+!scripts/analyze.sh
+
+# caches
+######################
+__pycache__/
+
+# OS generated files 
+######################
+_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
