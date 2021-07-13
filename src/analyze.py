@@ -42,7 +42,6 @@ def summarize(data, quiet=False):
     n_words = sum(wl_sents)
     n_chars = sum(cl_sents)
 
-
     min_wps = min(wl_sents)
     min_cps = min(cl_sents)
     min_cpw = len(min(words, key=len))
@@ -96,10 +95,7 @@ def run(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--input_data', type=Path, required=True)
-    parser.add_argument('--log_prefix_path',
-                        type=Path,
-                        required=True,
-                        default='logs')
+    parser.add_argument('--log_prefix_path', type=Path, default='logs')
     parser.add_argument('--quiet',
                         action='store_true',
                         help='Do not print logs')
